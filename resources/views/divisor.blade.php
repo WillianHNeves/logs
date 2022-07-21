@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Divisor</h1>
-    <h2>O resultado é: {{ $result }}</h2>
+    <h2>O resultado é: {{ $div }}</h2>
 </body>
 </html>

@@ -29,16 +29,15 @@ class HomeController extends Controller
 
     public function Div($num1, $num2)
     {
-        $result = $num1 / $num2;
-        
         if ($num2 == 0) {
             logger()->error('Divisor zero!');
             return;
-            
-        };
+        }
+       
+        $div = $num1/$num2;
 
         logger()->info('Div feita');
 
-        return view('divisor', compact('result'));
+        return $div;
     }
 }
