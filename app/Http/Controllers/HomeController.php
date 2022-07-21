@@ -40,4 +40,13 @@ class HomeController extends Controller
 
         return $div;
     }
+
+    public function Mult($num1, $num2)
+    {
+        if ($num2 < 0 || $num1 < 0) {
+            logger()->warning('Negativo');
+            return;
+        }
+        
+    }
 }
