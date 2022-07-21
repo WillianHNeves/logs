@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    
+    <h1>Divisor</h1>
     <h2>O resultado é: {{ $result }}</h2>
 </body>
 </html>
